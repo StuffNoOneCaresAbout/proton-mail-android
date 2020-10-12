@@ -8,6 +8,7 @@ on:
 jobs:
   test:
     name: Run Unit Tests
+    runs-on: ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v1
@@ -20,6 +21,7 @@ jobs:
 
   apk:
     name: Generate APK
+    runs-on: ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v1
